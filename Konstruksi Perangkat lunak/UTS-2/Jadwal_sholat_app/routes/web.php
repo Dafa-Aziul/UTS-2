@@ -9,3 +9,4 @@ Route::get('/', function () {
 
 
 Route::get('jadwal', [JadwalSholatController::class, 'showJadwalSholat'])->name('jadwal-sholat');
+
